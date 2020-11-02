@@ -1,0 +1,30 @@
+
+.Rohit__container{
+    width: 100vw !important;
+    height: 100vh !important;
+    /* background-color: black; */
+    background-image: url("food.jpg");
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Rohit__innerContainer{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 15% !important;
+    max-height: 85%;
+    padding: 40px;
+    background-color: white !important;
+    color: black;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: transparent;
+    /* -webkit-border-radius: 6px; */
+}
