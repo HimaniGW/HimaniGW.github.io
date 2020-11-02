@@ -1,4 +1,18 @@
+.Btn{
+    text-align: center;
+}
 
+.BtnLink{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: large;
+}
 .Rohit__container{
     width: 100vw !important;
     height: 100vh !important;
@@ -6,18 +20,25 @@
     background-image: url("food.jpg");
     overflow-x: hidden;
     overflow-y: hidden;
+    z-index: 1;
+    position: absolute;
+    top: 0;
 }
 
 .Rohit__innerContainer{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 15% !important;
+    /* margin-top: 5%; */
+    margin-bottom: 15%;
+    width: 90%;
     max-height: 85%;
     padding: 40px;
     background-color: white !important;
     color: black;
     overflow-y: scroll;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
 }
 ::-webkit-scrollbar
 {

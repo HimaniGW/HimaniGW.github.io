@@ -1,0 +1,23 @@
+.left{
+    transform: rotate(-30deg);
+    text-align: left;
+}
+.right{
+    transform: rotate(30deg);
+    text-align: right
+}
+.photo{
+    border-left: 8px;
+    border-right: 8px;
+    border-top: 8px;
+    border-bottom: 40px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.Rohit__innerContainer{
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
