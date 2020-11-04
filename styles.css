@@ -17,7 +17,8 @@
     width: 100vw !important;
     height: 100vh !important;
     /* background-color: black; */
-    background-image: url("food.jpg");
+    /* background-image: url("food.jpg"); */
+    background-image: url(bg.gif);
     overflow-x: hidden;
     overflow-y: hidden;
     z-index: 1;
@@ -49,3 +50,17 @@
     background-color: transparent;
     /* -webkit-border-radius: 6px; */
 }
+
+.prop{
+    font-size: large;
+    font-weight: bolder;
+    color: navy;
+}
+
+.value{
+    font-size: large;
+    font-weight: bold ;
+    font-style: italic;
+
+}
+

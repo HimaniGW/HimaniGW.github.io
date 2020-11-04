@@ -1,0 +1,257 @@
+body{
+    overflow: hidden;
+    background-image: url(bg.gif);
+}
+.balloon{
+    opacity: 0.8;
+    position: absolute;
+    animation: A 4s ease-in-out infinite;
+    z-index: 1;
+    
+
+}
+.balloon1{
+    top:0px;
+    left: 0px;
+    animation: A 4s ease-in-out infinite;
+}
+.balloon2{
+    top:10px;
+    left: 300px;
+    animation: A1 5s ease-in-out infinite;
+
+}
+.balloon3{
+    top:0px;
+    left: 540px;
+    animation: A 5s ease-in-out infinite;
+}
+.balloon4{
+    top:0px;
+    left: 750px;
+    animation: A1 4s ease-in-out infinite;
+}
+.balloon5{
+    top:40px;
+    left: 950px;
+    animation: A1 3s ease-in-out infinite;
+}
+.balloon6{
+    top:250px;
+    left: 40px;
+    animation: A2 3s ease-in-out infinite;
+}
+.balloon7{
+    top:200px;
+    left: 300px;
+    animation: A1 4s ease-in-out infinite;
+}
+.balloon8{
+    top:280px;
+    left: 540px;
+    animation: A 4s ease-in-out infinite;
+}
+.balloon9{
+    top:250px;
+    left: 750px;
+    animation: A2 4s ease-in-out infinite;
+}
+.balloon10{
+    top:200px;
+    left: 900px;
+    animation: A2 5s ease-in-out infinite;
+}
+.balloon11{
+    top:380px;
+    left: 50px;
+    animation: A1 5s ease-in-out infinite;
+}
+.balloon12{
+    top:400px;
+    left: 320px;
+    animation: A 5s ease-in-out infinite;
+}
+.balloon13{
+    top:450px;
+    left: 500px;
+    animation: A2 4s ease-in-out infinite;
+}
+.balloon14{
+    top:450px;
+    left: 750px;
+    animation: A1 4s ease-in-out infinite;
+}
+.balloon15{
+    top:480px;
+    left: 1000px;
+    animation: A2 5s ease-in-out infinite;
+}
+.balloon16{
+    top:500px;
+    left:280px;
+    animation: A 4s ease-in-out infinite;
+}
+.balloon17{
+    top:520px;
+    left:480px;
+    animation: A1 3s ease-in-out infinite;
+}
+.balloon18{
+    top:650px;
+    left: 10px;
+    animation: A2 4s ease-in-out infinite;
+}
+.balloon19{
+    top:680px;
+    left: 750px;
+    animation: A 3s ease-in-out infinite;
+
+}
+.balloon20{
+    top:550px;
+    left: 900px;
+    animation: A1 5s ease-in-out infinite;
+}
+.balloon21{
+    top:100px;
+    left: 1100px;
+    animation: A2 5s ease-in-out infinite;
+}
+.balloon22{
+    top:350px;
+    left: 1000px;
+    animation: A 4s ease-in-out infinite;
+}
+.balloon23{
+    top:600px;
+    left: 1200px;
+    animation: A1 3s ease-in-out infinite;
+}
+.balloon24{
+    top:600px;
+    left: 1050px;
+    animation: A2 5s ease-in-out infinite;
+}
+.balloon25{
+    top:750px;
+    left: 250px;
+    animation: A 4s ease-in-out infinite;
+}
+@keyframes A{
+    0%,100%{ transform:translateY(0) rotate(-4deg); }
+    50%{ transform:translateY(-25px) rotate(4deg); }
+}
+@keyframes A1{
+    0%,100%{ transform:translateY(0) rotate(-4deg); }
+    50%{ transform:translateY(-50px) rotate(4deg); }
+}
+@keyframes A2{
+    0%,100%{ transform:translateY(0) rotate(-6deg); }
+    50%{ transform:translateY(-50px) rotate(6deg); }
+}
+@keyframes fade{
+    0%,100%{
+        opacity: 0;
+    }
+}
+.Greetings{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 120px;
+    font-weight: 400;
+    opacity: 100;
+    z-index: 20;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 10px navy;
+}
+.H{
+    animation: fade 4s ease-in;
+}
+.a{
+    animation: fade 4.5s ease-in;
+}
+.p{
+    animation: fade 5s ease-in;
+}
+.p2{
+    animation: fade 5.5s ease-in;
+}
+.y{
+    animation: fade 6s ease-in;
+}
+.B{
+    animation: fade 6.5s ease-in;
+}
+.i{
+    animation: fade 7s ease-in;
+}
+.r{
+    animation: fade 7.5s ease-in;
+}
+.t{
+    animation: fade 8s ease-in;
+}
+.h{
+    animation: fade 8.5s ease-in;
+}
+.D{
+    animation: fade 9s ease-in;
+}
+.a2{
+    animation: fade 9.5s ease-in;
+}
+.y2{
+    animation: fade 10s ease-in;
+}
+.R{
+    animation: fade 10.5s ease-in;
+}
+.O{
+    animation: fade 11s ease-in;
+}
+.H2{
+    animation: fade 11.5s ease-in;
+}
+.I{
+    animation: fade 12s ease-in;
+}
+.T{
+    animation: fade 12.5s ease-in;
+}
+.Rohit{
+    position: absolute;
+    top: 180px;
+    left: 235px;
+    font-size: 180px;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    animation: rohitA 20s ;
+    z-index: 20;
+    text-shadow: 3px 10px navy;
+}
+
+
+.Btn1{
+    text-align: center;
+    animation: fade 13s;
+    position: absolute;
+    left: 40%;
+    top:500px;
+    z-index: 20;
+    opacity: 1;
+}
+
+.BtnLink1{
+    width: 560px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: larger;
+}

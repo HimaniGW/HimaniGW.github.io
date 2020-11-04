@@ -1,23 +1,57 @@
 .left{
-    transform: rotate(-30deg);
-    text-align: left;
+    transform: rotate(-15deg);
 }
 .right{
-    transform: rotate(30deg);
-    text-align: right
+    transform: rotate(15deg);
 }
 .photo{
     border-left: 8px;
     border-right: 8px;
     border-top: 8px;
-    border-bottom: 40px;
+    border-bottom: 50px;
     border-color: black;
     border-style: solid;
     border-radius: 10px;
+
 }
 
+.messageBox{
+    padding-left: 5px;
+}
+/* img{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+/* .message{
+    border: 8px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+} */
+
 .Rohit__innerContainer{
-    padding-left: 60px;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding: 60px;
+    overflow-x: hidden;
+}
+
+.message{
+    font-size: large;
+    font-weight: 600;
+}
+
+.message:nth-child(3n+1)
+{
+    color: black;
+    font-style: italic;
+}
+.message:nth-child(3n+2)
+{
+    color: navy;
+    font-size: larger;
+}
+.row{
+    padding: 20px;
 }
